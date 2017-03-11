@@ -1,0 +1,123 @@
+body {
+	font:400 12px/1.625 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: 444;
+	background-image:url(logo.png), linear-gradient(left , #ffffff 0%, #ffffff 52%, #ffffff 100%);
+	background-image:url(logo.png), -moz-linear-gradient(left , #ffffff 0%, #ffffff 52%, #ebebeb 100%);
+	background-image:url(logo.png), -webkit-linear-gradient(left , #ffffff 0%, #ffffff 52%, #ffffff 100%);
+	background-repeat: no-repeat;
+	background-position: top 75px right 100px, center;
+	background-size: 30%, auto;
+	background-attachment:fixed;
+
+
+     }
+	 
+.navbar-custom {
+    background-color:#34538a;
+	height: 50px;
+    color:#ffffff;
+    border-radius:0;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#fff;
+	font-family: CoveredByYourGrace;
+	font-size: 20px;
+}
+
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: #ffffff;
+	font-family: CoveredByYourGrace;
+    background-color:transparent;
+}
+.navbar-custom .navbar-brand {
+	padding: 0;
+    color:#eeeeee;
+}
+
+@font-face {
+    font-family: CoveredByYourGrace;
+    src: url(CoveredByYourGrace.ttf);
+}
+
+@font-face {
+    font-family: DJB On the Spot;
+    src: url(DJB On the Spot.ttf);
+}
+
+#container1 {
+	height: 25%;
+	width: 100%;
+	position: fixed;
+	left: 5px;
+	bottom: 5px;
+    float: left;
+}
+
+
+h1a {
+	padding-top: 25px;
+	padding-left: 5px;
+	font-family: CoveredByYourGrace;
+	color:#444;
+    display: block;
+	font-size:25px;
+}
+
+h1b {
+	font-family: CoveredByYourGrace;
+	color:#444;
+    display: block;
+	font-size:18px;
+	overflow: auto;
+}
+
+h1c {
+	font-family: CoveredByYourGrace;
+	color:#444;
+    display: block;
+	font-size:25px;
+	padding-right: 50%;
+	padding-left: 20px;
+	
+}
+
+
+.demo-2 {
+    position:relative;
+    width:24%;
+    height:100%;
+    overflow:hidden;
+    float:left;
+    background-color:#c1e1ff;
+	margin-right: 1%;
+	justify-content:center;
+}
+	
+.effect img {
+	max-height: 100%;
+    position:absolute;
+    left:0;
+    bottom:0;
+    margin:0 0;
+	opacity: 1;
+    transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+.effect img.top:hover {
+    opacity: 0;
+}
+
+
+::-webkit-input-placeholder {
+    color:#888;
+}
+:-moz-placeholder {
+    color:#888;
+}
+::-moz-placeholder {
+    color:#888;
+}
+:-ms-input-placeholder {
+    color:#888;
